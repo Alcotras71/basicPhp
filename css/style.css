@@ -1,0 +1,93 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body { 
+	background-color: #eef0ec;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 1000px;
+	background-color: #fff;
+	border: 1px solid #cbcdca;
+}
+
+.header-content__title {
+	padding: 25px 0px 5px 0px;
+	margin: 0 13px 0 13px;
+	font-size: 31px;
+	border-bottom: 1px dotted #84275a;
+}
+
+.main-content {
+	margin: 0 13px 0 13px;
+	padding: 17px 0px 8px 0px;
+	border-bottom: 1px dotted #84275a;
+}
+
+.main-content__news {
+	padding-bottom: 11px;
+	line-height: 17px;
+}
+
+.main-content__news_time {
+	display: inline-block;
+	font-size: 14px;
+	background-color: #84275a;
+	color: #fff;
+	padding: 1px 7px;
+}
+
+.main-content__news_title-content {
+	display: inline-block;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.footer-content {
+	margin: 10px 0px 0px 10px;
+	padding-bottom: 10px;
+}
+
+.footer-content__title {
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.footer-content__button {
+	width: 31px;
+	margin-bottom: 2px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 1px 0px;
+	border: 1px solid #cbcdca;
+	font-size: 12px;
+}
+
+.main-content__news_text-block {
+	font-size: 15px;
+	padding-bottom: 12px;
+	line-height: 17px;
+}
+
+.footer-content__return {
+	font-size: 19px;
+}
