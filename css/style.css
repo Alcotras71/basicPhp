@@ -99,5 +99,6 @@ body {
 }
 
 .footer-content__return {
+	padding-bottom: 20px;
 	font-size: 19px;
 }
