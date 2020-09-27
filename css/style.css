@@ -23,8 +23,8 @@ body {
 }
 
 .wrapper {
-	margin: 0 auto;
-	margin-top: 30px;
+	margin: 30px auto;
+	margin-bottom: 100px;
 	width: 1000px;
 	background-color: #fff;
 	border: 1px solid #cbcdca;
@@ -64,25 +64,35 @@ body {
 
 .footer-content {
 	margin: 10px 0px 0px 10px;
-	padding-bottom: 10px;
+	padding-bottom: 11px;
 }
 
 .footer-content__title {
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	font-size: 15px;
 	font-weight: 700;
 }
 
 .footer-content__button {
+	display: inline-block;
+	text-align: center;
 	width: 31px;
 	margin-bottom: 2px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	padding: 1px 0px;
 	border: 1px solid #cbcdca;
+	background-color: #edefec;
 	font-size: 12px;
+	text-decoration: none;
+	color: #111;
 }
 
-.main-content__news_text-block {
+.active, .footer-content__button:hover {
+	background-color: #84275b;
+	color: #fff;
+}
+
+.main-content__news_text p {
 	font-size: 15px;
 	padding-bottom: 12px;
 	line-height: 17px;
